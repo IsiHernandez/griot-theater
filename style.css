@@ -1,0 +1,171 @@
+body {
+    font-family: 'Luxurious Roman', cursive;
+    margin: 0;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* RESET ENDS */
+
+
+/* NAVBAR STYLES*/
+.banner {
+    background-image: url(images/theater-image-background.png);
+    height: 880px;
+    max-width: 100%;
+}
+
+.nav-bar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.nav-left h1 {
+    font-size: 30px;
+    padding-left: 140px;
+}
+
+.nav-right {
+    padding-right: 380px;
+}
+
+.nav-right ul {
+    display: flex;
+    gap: 60px
+}
+
+.nav-right li {
+    list-style: none;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+}
+
+#title h1 {
+    font-size: 140px;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-weight: 200;
+
+}
+
+/* END NAVBAR STYLES */
+
+/* SHOWS STYLES*/
+
+.shows {
+    padding-top: 130px;
+}
+
+.month {
+    text-align: center;
+    border: 1px solid grey;
+    width: 65%;
+    margin: auto;
+}
+
+.month h2 {
+    padding: 9px;
+    padding-right: 770px;
+    background-color: rgb(246, 246, 246);
+}
+
+
+
+.row img {
+    width: 220px;
+    height: 160px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 40px;
+    width: 1000px;
+    margin: auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+}
+
+.row article {
+    line-height: 40px;
+    width: 30%;
+}
+
+.row a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(230, 162, 73);
+    height: 60px;
+    width: 145px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 23px;
+
+}
+
+/* SHOW STYLES END */
+
+/* CONTACT STYLES */
+
+.contact {
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+
+.contact a {
+    color: white;
+    line-height: 70px;
+}
+
+.contact h2 {
+    font-size: 35px;
+    color: white;
+    line-height: 70px;
+}
+
+
+.contact img {
+    width: 320px;
+    height: 250px;
+    padding-top: 20px;
+}
+
+.fas {
+    color: rgb(230, 162, 73);
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.far {
+    color: rgb(230, 162, 73);
+    font-size: 30px;
+    padding-right: 15px;
+}
+
